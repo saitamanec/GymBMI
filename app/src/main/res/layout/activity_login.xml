@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.example.owner.gymbmi.Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView125"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="110dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etUsername"
+            android:layout_alignStart="@+id/etUsername"
+            android:layout_below="@+id/etUsername"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"/>
+
+
+        <Button
+            android:id="@+id/blogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bregister"
+            android:layout_alignBottom="@+id/bregister"
+            android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp"
+            android:onClick="clear"
+            android:text="Login"/>
+
+
+        <Button
+            android:id="@+id/bregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="63dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginRight="54dp"
+            android:onClick="ButtonClick"
+            android:text="Register"/>
+
+
+        <TextView
+            android:id="@+id/txtusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etUsername"
+            android:layout_alignBottom="@+id/etUsername"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:text="Username :"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/txtpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etPassword"
+            android:layout_alignBottom="@+id/etPassword"
+            android:layout_marginLeft="19dp"
+            android:text="Password :"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"/>
+
+
+        <TextView
+            android:id="@+id/textView125"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:text="Login Page"
+            android:textColor="@android:color/background_light"
+            android:textSize="25dp"/>
+
+    </RelativeLayout>
+</LinearLayout>

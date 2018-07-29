@@ -1,0 +1,118 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1"
+              tools:context="com.example.owner.gymbmi.BMICalculate">
+    <TextView
+        android:id="@+id/bShowww2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginBottom="20dp"
+        android:text="BMI kilogram calculator"
+        android:textColor="@android:color/background_light"
+        android:textSize="23dp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Enter your height and weight to calculate your BMI value : "
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.36"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/BMIWeight"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Weight (kg)    e.g. 70kg"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/BMIHeight"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:hint="Height (m)     e.g. 1.70m"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI :"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/result333"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:hint="Result"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/bCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="BMIcalculateClick"
+            android:text="Calculate"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info1"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info2"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info3"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info4"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"/>
+
+</LinearLayout>

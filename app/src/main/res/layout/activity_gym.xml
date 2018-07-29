@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="BICEPS WORKOUTS"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/bic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Biceps1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Seated Barbell Curls"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/bic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Biceps2"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Incline Hammer Curls"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/bic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Biceps3"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Machine Peacher Curls"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="TRICEPS WORKOUTS"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tri1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Tricep1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="One Arm Dumbbell Floor Press"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/tri2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Tricep2"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Close Grip Floor Press"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tri3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Tricep3"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Barbell Floor Press"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="ABS WORKOUTS"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/abs1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Abs1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Forearm Plank with Leg Lifts"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/abs2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Abs2"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Hanging Knee Raise"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/abs3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Abs3"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Decline Sit Ups"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="LEG WORKOUTS"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Leg1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Narrow Stance Hack Squat"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/lg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Leg2"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Barbell Squat"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/lg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Leg3"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Seated Calf Raise"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="CHEST WORKOUTS"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/che1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Chest1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Incline Dumbbell Flys "
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/che2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Chest2"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="Smith Machine Bench Press"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/che3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Chest3"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="Decline Barbell Bench Press"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

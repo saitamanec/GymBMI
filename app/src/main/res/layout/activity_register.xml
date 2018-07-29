@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView125"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="125dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Email"
+            android:layout_alignStart="@+id/Email"
+            android:layout_below="@+id/Email"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Username"
+            android:layout_alignStart="@+id/Username"
+            android:layout_below="@+id/Username"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"/>
+
+
+        <Button
+            android:id="@+id/bRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bDone"
+            android:layout_alignBottom="@+id/bDone"
+            android:layout_alignLeft="@+id/textView124"
+            android:layout_alignStart="@+id/textView124"
+            android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp"
+            android:onClick="clear"
+            android:text="Register"/>
+
+
+        <Button
+            android:id="@+id/bDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="63dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginRight="54dp"
+            android:onClick="DoneClick"
+            android:text="Done"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <EditText
+            android:id="@+id/Genderrr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Password"
+            android:layout_alignStart="@+id/Password"
+            android:layout_below="@+id/Password"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/Birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/Genderrr"
+            android:layout_alignRight="@+id/Genderrr"
+            android:layout_below="@+id/Genderrr"
+            android:layout_marginLeft="125dp"
+            android:ems="10"
+            android:inputType="date"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/Country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Birth"
+            android:layout_alignStart="@+id/Birth"
+            android:layout_below="@+id/Birth"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/textView119"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Username"
+            android:layout_alignBottom="@+id/Username"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:text="Username :"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView120"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Email"
+            android:layout_alignBottom="@+id/Email"
+            android:layout_alignLeft="@+id/textView119"
+            android:layout_alignStart="@+id/textView119"
+            android:text="Email :"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Password"
+            android:layout_alignBottom="@+id/Password"
+            android:layout_alignLeft="@+id/textView120"
+            android:layout_alignStart="@+id/textView120"
+            android:text="Password :"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Genderrr"
+            android:layout_alignBottom="@+id/Genderrr"
+            android:layout_alignLeft="@+id/textView121"
+            android:layout_alignStart="@+id/textView121"
+            android:text="Gender :"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Birth"
+            android:layout_alignBottom="@+id/Birth"
+            android:layout_alignLeft="@+id/textView122"
+            android:layout_alignStart="@+id/textView122"
+            android:text="Date of Birth :"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView124"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Country"
+            android:layout_alignBottom="@+id/Country"
+            android:layout_alignLeft="@+id/textView123"
+            android:layout_alignStart="@+id/textView123"
+            android:text="Country :"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView125"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:text="Sign Up"
+            android:textColor="@android:color/background_light"
+            android:textSize="25dp"/>
+
+    </RelativeLayout>
+</LinearLayout>
